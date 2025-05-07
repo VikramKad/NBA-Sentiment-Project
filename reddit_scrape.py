@@ -1,3 +1,4 @@
+from datetime import datetime
 import praw
 import pandas as pd
 import os
@@ -9,20 +10,29 @@ reddit = praw.Reddit(
     user_agent='NBA Sent Gatherer by /u/Long-Place-9308'
 )
 
-def fetch_posts_and_comments(subreddit_name, query, post_limit, comment_limit):
+def fetch_posts_and_comments(subreddit_name, query, post_limit, comment_limit, start_date=None, end_date=None):
     subreddit = reddit.subreddit(subreddit_name)
     posts_data = []
 
     print(f"Searching '{query}' in r/{subreddit_name}...")
 
     for post in subreddit.search(query, limit=post_limit):
-        post.comments.replace_more(limit=0) 
+        post_date = datetime.fromtimestamp(post.created_utc)
+
+        # Apply date filtering
+        if start_date and post_date < start_date:
+            continue
+        if end_date and post_date > end_date:
+            continue
+
+        post.comments.replace_more(limit=0)
         comments = [comment.body for comment in post.comments[:comment_limit]]
 
         posts_data.append({
             'Post Title': post.title,
             'Post Body': post.selftext,
-            'Comments': comments
+            'Comments': ' || '.join(comments),
+            'Date': post_date.strftime('%Y-%m-%d')
         })
 
     df = pd.DataFrame(posts_data)
@@ -32,18 +42,18 @@ def fetch_posts_and_comments(subreddit_name, query, post_limit, comment_limit):
     print(f"Saved {len(df)} posts to {file_name}")
 
 if __name__ == "__main__":
-
     player_list = read_player_list()
-    
+
+    # Define your date range here (e.g., 2023-2024 season)
+    start = datetime(2024, 1, 1)
+    end = datetime(2024, 12, 31)
+
     for player_name in player_list:
-        #print (player_name)
-        fetch_posts_and_comments(subreddit_name= 'nba', query = player_name, post_limit=50, comment_limit=50)
-
-
-
-    # fetch_posts_and_comments(
-    #     subreddit_name='nba',
-    #     query='LeBron James',
-    #     post_limit=20,
-    #     comment_limit=20
-    # )
+        fetch_posts_and_comments(
+            subreddit_name='nba',
+            query=player_name,
+            post_limit=100,
+            comment_limit=20,
+            start_date=start,
+            end_date=end
+        )
