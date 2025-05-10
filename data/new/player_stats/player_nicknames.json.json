@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Lebron James",
+        "nicknames": ["King James", "Bron", "Lebron", "Bron Bron", "LBJ"]
+    },
+    {
+        "name": "Stephen Curry",
+        "nicknames": ["Chef Curry", "Steph", "Curry", "Stephen"]
+    },
+    {
+        "name": "Jalen Brunson",
+        "nicknames": ["Jalen", "Jalen Dime", "Brunson"]
+    },
+    {
+        "name": "Giannis Antetokounmpo",
+        "nicknames": ["Giannis", "Greek Freak", "The Greek Freak", "Antetokounmpo", "The Freak"]
+    },
+    {
+        "name": "Luka Doncic",
+        "nicknames": ["Luka", "Doncic", "The Don"]
+    },
+    {
+        "name": "Shai Gilgeous-Alexander",
+        "nicknames": ["Shai", "Gilgeous-Alexander", "The Shai"]
+    },
+    {
+        "name": "Anthony Edwards",
+        "nicknames": ["Anthony", "Edwards"]
+    },
+    {
+        "name": "Donovan Mitchell",
+        "nicknames": ["Donovan", "Mitchell"]
+    }
+]
