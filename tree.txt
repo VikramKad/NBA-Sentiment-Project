@@ -1,17 +1,25 @@
 NBA-Sentiment-Project/
     .python-version
-    another notebook.ipynb
+    actual final v2.ipynb
+All other files/
+    anthony_edwards_merged_data.csv
+    anthony_edwards_merged_sentiment_2022_2024.csv
+    data_processing.log
+    fetchNBA_stats.py
+    readPL.py
+    reddit_scrape.py
+    make tree.py
 data/
     broken or old/
-        lebron_james_reddit_mentions.csv      
+        lebron_james_reddit_mentions.csv
     csv/
-        anthony_edwards_reddit_posts.csv      
+        anthony_edwards_reddit_posts.csv
         anthony_edwards_stats.csv
-        donovan_mitchell_reddit_posts.csv     
+        donovan_mitchell_reddit_posts.csv
         donovan_mitchell_stats.csv
         giannis_antetokounmpo_reddit_posts.csv
-        giannis_antetokounmpo_stats.csv       
-        jalen_brunson_reddit_posts.csv        
+        giannis_antetokounmpo_stats.csv
+        jalen_brunson_reddit_posts.csv
         jalen_brunson_stats.csv
         lebron_james_reddit_posts.csv
         lebron_james_stats.csv
@@ -58,8 +66,14 @@ data/
                 shai_gilgeous-alexander_gamelog.csv
                 stephen_curry_gamelog.csv
         processed_data/
-            anthony_edwards_stats_plus_sentiment_2022_2024.csv
-            anthony_edwards_stats_plus_sentiment_fullsnap_2022_2024.csv
+            anthony_edwards_stats_sentiment_2022_2024.csv
+            donovan_mitchell_stats_sentiment_2022_2024.csv
+            giannis_antetokounmpo_stats_sentiment_2022_2024.csv
+            jalen_brunson_stats_sentiment_2022_2024.csv
+            lebron_james_stats_sentiment_2022_2024.csv
+            luka_doncic_stats_sentiment_2022_2024.csv
+            shai_gilgeous-alexander_stats_sentiment_2022_2024.csv
+            stephen_curry_stats_sentiment_2022_2024.csv
         reddit_data/
             anthony_edwards_reddit_mentions.csv
             donovan_mitchell_reddit_mentions.csv
@@ -87,26 +101,40 @@ data/
         luka_doncic_reddit_mentions.csv
         shai_gilgeous-alexander_reddit_mentions.csv
         stephen_curry_reddit_mentions.csv
-    data_processing.log
-    fetchNBA_stats.py
     fetch_reddit_data_comprehensive.py
-    make tree.py
-NBA-Sentiment-Project/
-    data/
-        new/
-            processed_data/
-    nba_sentiment.ipynb
+    Intro To DS Report NBA Sent Anal.pdf
     newNBAstats.py
+Notebooks/
+    actual final adadad.html
+    actual final v2.html
+    actual final v2.ipynb
+    actual final v3.html
+    actual final.ipynb
+    another notebook.ipynb
+    nba_sentiment.ipynb
+    not final.ipynb
+    final but in parts/
+        cell 1.py
+        cell 3.py
+        cell 4.py
+        cell 5.py
     players.txt
     PLEASEsentiment.py
+    process_all_players.py
     process_sentiment_data.py
     README.md
-    readPL.py
-    reddit_scrape.py
     sentimentmerger.py
+    tree.txt
 NBA-Sentiment-Project/
 ├── .python-version
-├── another notebook.ipynb
+├── actual final v2.ipynb
+├── All other files/
+│   ├── anthony_edwards_merged_data.csv
+│   ├── anthony_edwards_merged_sentiment_2022_2024.csv
+│   ├── data_processing.log
+│   ├── fetchNBA_stats.py
+│   ├── readPL.py
+│   └── reddit_scrape.py
 ├── data/
 │   ├── broken or old/
 │   │   └── lebron_james_reddit_mentions.csv
@@ -164,8 +192,14 @@ NBA-Sentiment-Project/
 │   │   │       ├── shai_gilgeous-alexander_gamelog.csv
 │   │   │       └── stephen_curry_gamelog.csv
 │   │   ├── processed_data/
-│   │   │   ├── anthony_edwards_stats_plus_sentiment_2022_2024.csv
-│   │   │   └── anthony_edwards_stats_plus_sentiment_fullsnap_2022_2024.csv
+│   │   │   ├── anthony_edwards_stats_sentiment_2022_2024.csv
+│   │   │   ├── donovan_mitchell_stats_sentiment_2022_2024.csv
+│   │   │   ├── giannis_antetokounmpo_stats_sentiment_2022_2024.csv
+│   │   │   ├── jalen_brunson_stats_sentiment_2022_2024.csv
+│   │   │   ├── lebron_james_stats_sentiment_2022_2024.csv
+│   │   │   ├── luka_doncic_stats_sentiment_2022_2024.csv
+│   │   │   ├── shai_gilgeous-alexander_stats_sentiment_2022_2024.csv
+│   │   │   └── stephen_curry_stats_sentiment_2022_2024.csv
 │   │   ├── reddit_data/
 │   │   │   ├── anthony_edwards_reddit_mentions.csv
 │   │   │   ├── donovan_mitchell_reddit_mentions.csv
@@ -193,19 +227,28 @@ NBA-Sentiment-Project/
 │       ├── luka_doncic_reddit_mentions.csv
 │       ├── shai_gilgeous-alexander_reddit_mentions.csv
 │       └── stephen_curry_reddit_mentions.csv
-├── data_processing.log
-├── fetchNBA_stats.py
 ├── fetch_reddit_data_comprehensive.py
+├── Intro To DS Report NBA Sent Anal.pdf
 ├── make tree.py
-├── NBA-Sentiment-Project/
-│   └── data/
-│       └── new/
-│           └── processed_data/
-├── nba_sentiment.ipynb
 ├── newNBAstats.py
+├── Notebooks/
+│   ├── actual final adadad.html
+│   ├── actual final v2.html
+│   ├── actual final v2.ipynb
+│   ├── actual final v3.html
+│   ├── actual final.ipynb
+│   ├── another notebook.ipynb
+│   ├── final but in parts/
+│   │   ├── cell 1.py
+│   │   ├── cell 3.py
+│   │   ├── cell 4.py
+│   │   └── cell 5.py
+│   ├── nba_sentiment.ipynb
+│   └── not final.ipynb
 ├── players.txt
 ├── PLEASEsentiment.py
+├── process_all_players.py
 ├── process_sentiment_data.py
 ├── README.md
-├── readPL.py
-├── reddit_scrape.py
+├── sentimentmerger.py
+└── tree.txt
