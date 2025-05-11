@@ -1,0 +1,211 @@
+NBA-Sentiment-Project/
+    .python-version
+    another notebook.ipynb
+data/
+    broken or old/
+        lebron_james_reddit_mentions.csv      
+    csv/
+        anthony_edwards_reddit_posts.csv      
+        anthony_edwards_stats.csv
+        donovan_mitchell_reddit_posts.csv     
+        donovan_mitchell_stats.csv
+        giannis_antetokounmpo_reddit_posts.csv
+        giannis_antetokounmpo_stats.csv       
+        jalen_brunson_reddit_posts.csv        
+        jalen_brunson_stats.csv
+        lebron_james_reddit_posts.csv
+        lebron_james_stats.csv
+        luka_doncic_reddit_posts.csv
+        shai_gilgeous-alexander_reddit_posts.csv
+        shai_gilgeous-alexander_stats.csv
+        stephen_curry_reddit_posts.csv
+        stephen_curry_stats.csv
+    json/
+        nicknames.json
+    logs/
+        data_acquisition_nba.log
+        data_acquisition_reddit.log
+        data_acquisition_reddit.txt
+    new/
+        player_stats/
+            player_id_cache.json
+            player_nicknames.json.json
+            season_2022/
+                anthony_edwards_gamelog.csv
+                donovan_mitchell_gamelog.csv
+                giannis_antetokounmpo_gamelog.csv
+                jalen_brunson_gamelog.csv
+                lebron_james_gamelog.csv
+                luka_doncic_gamelog.csv
+                shai_gilgeous-alexander_gamelog.csv
+                stephen_curry_gamelog.csv
+            season_2023/
+                anthony_edwards_gamelog.csv
+                donovan_mitchell_gamelog.csv
+                giannis_antetokounmpo_gamelog.csv
+                jalen_brunson_gamelog.csv
+                lebron_james_gamelog.csv
+                luka_doncic_gamelog.csv
+                shai_gilgeous-alexander_gamelog.csv
+                stephen_curry_gamelog.csv
+            season_2024/
+                anthony_edwards_gamelog.csv
+                donovan_mitchell_gamelog.csv
+                giannis_antetokounmpo_gamelog.csv
+                jalen_brunson_gamelog.csv
+                lebron_james_gamelog.csv
+                luka_doncic_gamelog.csv
+                shai_gilgeous-alexander_gamelog.csv
+                stephen_curry_gamelog.csv
+        processed_data/
+            anthony_edwards_stats_plus_sentiment_2022_2024.csv
+            anthony_edwards_stats_plus_sentiment_fullsnap_2022_2024.csv
+        reddit_data/
+            anthony_edwards_reddit_mentions.csv
+            donovan_mitchell_reddit_mentions.csv
+            giannis_antetokounmpo_reddit_mentions.csv
+            jalen_brunson_reddit_mentions.csv
+            lebron_james_reddit_mentions.csv
+            luka_doncic_reddit_mentions.csv
+            shai_gilgeous-alexander_reddit_mentions.csv
+            stephen_curry_reddit_mentions.csv
+        reddit_data_analyzed/
+            anthony_edwards_reddit_mentions_sentiment.csv
+            donovan_mitchell_reddit_mentions_sentiment.csv
+            giannis_antetokounmpo_reddit_mentions_sentiment.csv
+            jalen_brunson_reddit_mentions_sentiment.csv
+            lebron_james_reddit_mentions_sentiment.csv
+            luka_doncic_reddit_mentions_sentiment.csv
+            shai_gilgeous-alexander_reddit_mentions_sentiment.csv
+            stephen_curry_reddit_mentions_sentiment.csv
+    owaysCSV/
+        anthony_edwards_reddit_mentions.csv
+        donovan_mitchell_reddit_mentions.csv
+        giannis_antetokounmpo_reddit_mentions.csv
+        jalen_brunson_reddit_mentions.csv
+        lebron_james_reddit_mentions.csv
+        luka_doncic_reddit_mentions.csv
+        shai_gilgeous-alexander_reddit_mentions.csv
+        stephen_curry_reddit_mentions.csv
+    data_processing.log
+    fetchNBA_stats.py
+    fetch_reddit_data_comprehensive.py
+    make tree.py
+NBA-Sentiment-Project/
+    data/
+        new/
+            processed_data/
+    nba_sentiment.ipynb
+    newNBAstats.py
+    players.txt
+    PLEASEsentiment.py
+    process_sentiment_data.py
+    README.md
+    readPL.py
+    reddit_scrape.py
+    sentimentmerger.py
+NBA-Sentiment-Project/
+├── .python-version
+├── another notebook.ipynb
+├── data/
+│   ├── broken or old/
+│   │   └── lebron_james_reddit_mentions.csv
+│   ├── csv/
+│   │   ├── anthony_edwards_reddit_posts.csv
+│   │   ├── anthony_edwards_stats.csv
+│   │   ├── donovan_mitchell_reddit_posts.csv
+│   │   ├── donovan_mitchell_stats.csv
+│   │   ├── giannis_antetokounmpo_reddit_posts.csv
+│   │   ├── giannis_antetokounmpo_stats.csv
+│   │   ├── jalen_brunson_reddit_posts.csv
+│   │   ├── jalen_brunson_stats.csv
+│   │   ├── lebron_james_reddit_posts.csv
+│   │   ├── lebron_james_stats.csv
+│   │   ├── luka_doncic_reddit_posts.csv
+│   │   ├── shai_gilgeous-alexander_reddit_posts.csv
+│   │   ├── shai_gilgeous-alexander_stats.csv
+│   │   ├── stephen_curry_reddit_posts.csv
+│   │   └── stephen_curry_stats.csv
+│   ├── json/
+│   │   └── nicknames.json
+│   ├── logs/
+│   │   ├── data_acquisition_nba.log
+│   │   ├── data_acquisition_reddit.log
+│   │   └── data_acquisition_reddit.txt
+│   ├── new/
+│   │   ├── player_stats/
+│   │   │   ├── player_id_cache.json
+│   │   │   ├── player_nicknames.json.json
+│   │   │   ├── season_2022/
+│   │   │   │   ├── anthony_edwards_gamelog.csv
+│   │   │   │   ├── donovan_mitchell_gamelog.csv
+│   │   │   │   ├── giannis_antetokounmpo_gamelog.csv
+│   │   │   │   ├── jalen_brunson_gamelog.csv
+│   │   │   │   ├── lebron_james_gamelog.csv
+│   │   │   │   ├── luka_doncic_gamelog.csv
+│   │   │   │   ├── shai_gilgeous-alexander_gamelog.csv
+│   │   │   │   └── stephen_curry_gamelog.csv
+│   │   │   ├── season_2023/
+│   │   │   │   ├── anthony_edwards_gamelog.csv
+│   │   │   │   ├── donovan_mitchell_gamelog.csv
+│   │   │   │   ├── giannis_antetokounmpo_gamelog.csv
+│   │   │   │   ├── jalen_brunson_gamelog.csv
+│   │   │   │   ├── lebron_james_gamelog.csv
+│   │   │   │   ├── luka_doncic_gamelog.csv
+│   │   │   │   ├── shai_gilgeous-alexander_gamelog.csv
+│   │   │   │   └── stephen_curry_gamelog.csv
+│   │   │   └── season_2024/
+│   │   │       ├── anthony_edwards_gamelog.csv
+│   │   │       ├── donovan_mitchell_gamelog.csv
+│   │   │       ├── giannis_antetokounmpo_gamelog.csv
+│   │   │       ├── jalen_brunson_gamelog.csv
+│   │   │       ├── lebron_james_gamelog.csv
+│   │   │       ├── luka_doncic_gamelog.csv
+│   │   │       ├── shai_gilgeous-alexander_gamelog.csv
+│   │   │       └── stephen_curry_gamelog.csv
+│   │   ├── processed_data/
+│   │   │   ├── anthony_edwards_stats_plus_sentiment_2022_2024.csv
+│   │   │   └── anthony_edwards_stats_plus_sentiment_fullsnap_2022_2024.csv
+│   │   ├── reddit_data/
+│   │   │   ├── anthony_edwards_reddit_mentions.csv
+│   │   │   ├── donovan_mitchell_reddit_mentions.csv
+│   │   │   ├── giannis_antetokounmpo_reddit_mentions.csv
+│   │   │   ├── jalen_brunson_reddit_mentions.csv
+│   │   │   ├── lebron_james_reddit_mentions.csv
+│   │   │   ├── luka_doncic_reddit_mentions.csv
+│   │   │   ├── shai_gilgeous-alexander_reddit_mentions.csv
+│   │   │   └── stephen_curry_reddit_mentions.csv
+│   │   └── reddit_data_analyzed/
+│   │       ├── anthony_edwards_reddit_mentions_sentiment.csv
+│   │       ├── donovan_mitchell_reddit_mentions_sentiment.csv
+│   │       ├── giannis_antetokounmpo_reddit_mentions_sentiment.csv
+│   │       ├── jalen_brunson_reddit_mentions_sentiment.csv
+│   │       ├── lebron_james_reddit_mentions_sentiment.csv
+│   │       ├── luka_doncic_reddit_mentions_sentiment.csv
+│   │       ├── shai_gilgeous-alexander_reddit_mentions_sentiment.csv
+│   │       └── stephen_curry_reddit_mentions_sentiment.csv
+│   └── owaysCSV/
+│       ├── anthony_edwards_reddit_mentions.csv
+│       ├── donovan_mitchell_reddit_mentions.csv
+│       ├── giannis_antetokounmpo_reddit_mentions.csv
+│       ├── jalen_brunson_reddit_mentions.csv
+│       ├── lebron_james_reddit_mentions.csv
+│       ├── luka_doncic_reddit_mentions.csv
+│       ├── shai_gilgeous-alexander_reddit_mentions.csv
+│       └── stephen_curry_reddit_mentions.csv
+├── data_processing.log
+├── fetchNBA_stats.py
+├── fetch_reddit_data_comprehensive.py
+├── make tree.py
+├── NBA-Sentiment-Project/
+│   └── data/
+│       └── new/
+│           └── processed_data/
+├── nba_sentiment.ipynb
+├── newNBAstats.py
+├── players.txt
+├── PLEASEsentiment.py
+├── process_sentiment_data.py
+├── README.md
+├── readPL.py
+├── reddit_scrape.py
