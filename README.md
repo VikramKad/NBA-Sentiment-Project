@@ -199,11 +199,9 @@ Our analysis of the combined performance and Reddit sentiment data for eight NBA
 *   **Plus-Minus (+/-):** No meaningful linear trend was observed between a player's plus-minus for a game and the mean sentiment.
 *   **Other Metrics:** No strong, meaningful statistical correlations were found between sentiment metrics and other performance stats like assists or blocks in this aggregated view.
 
-*(Note: Clustering results from the Jupyter Notebook would also be summarized here if they provide distinct insights into game-sentiment archetypes.)*
 
 ## 8. Limitations and Future Work
 
-(Summarized from your report's "Discussion" and "Difference from Original Plan and Future Possibilities" sections)
 
 *   **Data Source:** Limited to r/NBA; future work could include team-specific subreddits or other platforms like X.com.
 *   **Sentiment Analysis Tool:** VADER has limitations; more advanced NLP models could be used.
